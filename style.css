@@ -1,0 +1,41 @@
+/* Google Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+/* Common Design  */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation Bar Design  */
+header {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  /* width: 1000px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 34px;
+}
+.fa-cart-plus {
+  font-size: 22px;
+}
