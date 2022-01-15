@@ -557,3 +557,192 @@ footer {
     border-radius: 40px;
   }
 }
+
+/* Media Query for Min width 481 and Max width 768px  */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Animation */
+  @keyframes cameraaa {
+    0% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+  @keyframes back {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  /* Common Design  */
+  body {
+    display: inline-block;
+    width: 100%;
+    /* background-color: #e02c6d; */
+  }
+  /* Navigation Bar Design  */
+  header {
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+  }
+  .nav-bar {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-black {
+    font-size: 22px;
+  }
+  .visible {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+
+  /* Hero Section   */
+  .hero-section {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+  }
+
+  .main-title {
+    font-size: 32px;
+    color: #3a3a3a;
+    font-weight: 700;
+  }
+  .main-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3a3a3a;
+    margin-bottom: 40px;
+    width: 600px;
+  }
+
+  .hero-img {
+    width: 600px;
+    position: relative;
+  }
+  .hero-img img {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    left: 0%;
+  }
+  .hero-img svg {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    left: 0%;
+  }
+  .camera-image {
+    animation-name: cameraaa;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  .background {
+    animation-name: back;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  /* Featured brands */
+  .brands-container {
+    width: 700px;
+    margin-top: 430px;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  /* Popular collection */
+  .popular-collection-section {
+    margin: 10px 0;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .item-name {
+    font-weight: 700;
+  }
+  .item-price {
+    font-weight: 700;
+  }
+  .item-rating span {
+    font-weight: 500;
+  }
+  .shipping-info {
+    font-weight: 400;
+  }
+  .shipping-info p {
+    margin: 0px;
+  }
+  .see-more {
+    text-align: right;
+    margin-top: 5%;
+  }
+  /* Contact Me Section  */
+
+  .contact-me-section {
+    min-width: 90%;
+    margin-top: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-me-img {
+    width: 90%;
+  }
+  .contact-me-img img {
+    width: 100%;
+    height: auto;
+  }
+  .contact-me-info {
+    padding-top: 20px;
+    width: 90%;
+    text-align: center;
+    color: #0a0826;
+    padding-left: 5%;
+    border: none;
+  }
+  .contact-me-title {
+    color: #3a3a3a;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .contact-me-info p {
+    margin-top: 0;
+    width: 100%;
+  }
+  .input-fields input {
+    width: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #e02c6d;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e02c6d;
+    padding: 10px 20px;
+    border-radius: 40px;
+  }
+}
