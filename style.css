@@ -10,18 +10,14 @@ body {
   flex-direction: column;
   align-items: center;
 }
-header {
-  display: flex;
-  justify-content: center;
-}
-main,
-header {
+.fixed-width {
   width: 1200px;
-  padding: 0px 10%;
 }
 /* Navigation Bar Design  */
 header {
   display: flex;
+  justify-content: center;
+  padding: 0px 10%;
 }
 .nav-bar {
   width: 1200px;
@@ -29,12 +25,13 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.logo {
+.logo-black {
   font-size: 24px;
   font-weight: 700;
   color: #3a3a3a;
   cursor: pointer;
 }
+
 .menu ul {
   display: flex;
   align-items: center;
@@ -133,7 +130,7 @@ header {
 }
 .item-thumbnail img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }
 .item-name {
@@ -178,7 +175,82 @@ header {
 }
 .see-more a {
   text-decoration: none;
-  color: #e02c6ed7;
+  color: #e02c6d;
   font-size: 16px;
   font-weight: 700;
+}
+
+/* Contact Me Section Design  */
+
+.contact-me {
+  background-color: #7b7e8b;
+  min-width: 100%;
+}
+
+.message-field {
+  width: 30%;
+  padding: 12px 20px 100px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #e02c6d;
+  border-radius: 20px;
+}
+
+.email-field {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #e02c6d;
+  border-radius: 20px;
+}
+.submit-button {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #e02c6d;
+}
+
+/* Footer Section Design  */
+footer {
+  background-color: #0a0826;
+  min-width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.copyright-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d9dbe1;
+  margin: 0px;
+}
+
+.logo-white {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logo-white h3 {
+  margin-bottom: 0px;
+}
+.social-links {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.social-links a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.border {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #22213c;
 }
