@@ -179,9 +179,9 @@ header {
   font-size: 16px;
   font-weight: 700;
 }
-
+/* ---------------------------------------  */
 /* Contact Me Section Design  */
-
+/* 
 .contact-me {
   background-color: #7b7e8b;
   min-width: 100%;
@@ -212,7 +212,52 @@ header {
   font-weight: bold;
   color: rgb(255, 255, 255);
   background-color: #e02c6d;
+} */
+
+.contact-me-section {
+  min-width: 100%;
+  margin-top: 100px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
+.contact-me-img {
+  width: 100%;
+}
+.contact-me-img img {
+  width: 100%;
+  height: auto;
+}
+.contact-me-info {
+  width: 100%;
+  color: #0a0826;
+  padding-left: 5%;
+}
+.contact-me-title {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.contact-me-info p {
+  margin-top: 0;
+  width: 50%;
+}
+.input-fields input {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #e02c6d;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: #e02c6d;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.fa-envelope-open {
+  margin-left: 10px;
+}
+/* ---------------------------------------  */
 
 /* Footer Section Design  */
 footer {
