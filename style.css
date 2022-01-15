@@ -232,6 +232,7 @@ header {
   width: 100%;
   color: #0a0826;
   padding-left: 5%;
+  border-right: 2px solid #e02c6d;
 }
 .contact-me-title {
   color: #3a3a3a;
